@@ -12,6 +12,9 @@ body{
     display: flex;
     
   }
+.padding{
+  padding:20px;
+}
   .sous-menu{
     display: none;
 
