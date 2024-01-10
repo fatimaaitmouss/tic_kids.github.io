@@ -291,7 +291,6 @@ body{
 .tab {
   float: left;
   background-color: #eb7100;
-  border-radius: 30px auto;
   height: auto;
 }
 .shapes{
