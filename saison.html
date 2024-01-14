@@ -6,51 +6,67 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body style="">
-      <div class="header">
-        <div id="logo"><a href="index.html"><img src="img/logos.png"/></a></div>
-          <div class="topnav" id="myTopnav">
-             <a href="index.html" class="active">Acceuil</a>
-           <div class="dropdown">
-          <button class="dropbtn"  href="#kids">Culture
-
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="saison.html">Saisons</a>
-            <a href="semaine.html">Semaine</a>
-            <a href="trans.html">Moyens de transport</a>
-            <a href="color.html">Couleurs </a>
-          </div>
-          </div>
-        <a href="saison.html">Saisons</a>
-          <a href="alphabets.html">Alphabets</a>
-         <div class="dropdown">
-          <button class="dropbtn"  href="#kids">jouets 
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="jouet1.html">1-2 ans</a>
-            <a href="jouet2.html">2-3 ans</a>
-            <a href="jouet3.html">3-4 ans</a>
-            <a href="jouet4.html">4-5 ans</a>
-          </div>
-          </div>
-       <div class="dropdown">
-          <button class="dropbtn"  href="#math">Math
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="jouet1.html">Nombres</a>
-            <a href="jouet2.html">Formes géométriques</a>
-          </div>
-          </div>
-        <a href="travaux.html">Travaux Manuels</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-          </div>
+      <nav>
+        <div class="wrapper">
+          <div id="logo"><a href="index.html"><img src="img/logos.png"/></a></div>
+          <input type="radio" name="slider" id="menu-btn">
+          <input type="radio" name="slider" id="close-btn">
+          <ul class="nav-links">
+            <label for="close-btn" class="btn close-btn"><i class="fa fa-times"></i></label>
+            <li><a href="index.html">Acceuil</a></li>
+            <li><a href="index/#about">à propos</a></li>
+            <li>
+              <a href="#" class="desktop-item">Culture</a>
+              <input type="checkbox" id="showDrop">
+              <label for="showDrop" class="mobile-item">Culture</label>
+              <ul class="drop-menu">
+                 <li> <a href="saison.html">Saisons</a></li>
+                <li><a href="semaine.html">Les jours de Semaine</a></li>
+               <li><a href="trans.html">Moyens de transport</a></li>
+                <li><a href="color.html">Couleurs </a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="desktop-item">Jeux </a>
+              <input type="checkbox" id="showMega">
+              <label for="showMega" class="mobile-item">Mega Menu</label>
+              <div class="mega-box">
+                <div class="content">
+                  <div class="row">
+                    <img src="img/block_jouets.png" alt="block_jouets">
+                  </div>
+                  <div class="row">
+                    <header></header>
+                    <ul class="mega-links">
+                     <li><a href="jouet1.html">1-2 ans</a></li> 
+                     <li><a href="jouet2.html">2-3 ans</a></li> 
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header></header>
+                    <ul class="mega-links">
+                      <li> <a href="jouet3.html">3-4 ans</a></li>
+                      <li><a href="jouet4.html">4-5 ans</a></li> 
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="#" class="desktop-item">Math</a>
+              <input type="checkbox" id="showDrop2">
+              <label for="showDrop2" class="mobile-item">Math</label>
+              <ul class="drop-menu">
+               <li> <a href="nmbres.html">Nombres</a></li>
+               <li> <a href="geometric_shapes.html">Formes géométriques</a></li>
+              </ul>
+            </li>
+            <li> <a href="travaux.html">Travaux Manuels</a></li>
+          </ul>
+          <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
         </div>
-    <div class="flex">
+      </nav>
+    <div class="flex2">
       <div>
           <DIV class="hiver">
               <h3>L’hiver</h3>
