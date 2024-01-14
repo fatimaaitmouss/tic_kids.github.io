@@ -1,7 +1,8 @@
 @font-face {
   font-family: "Fredoka";
   src: url("font/Fredoka-VariableFont_wdth\,wght.ttf");
-}*{
+}
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -493,8 +494,11 @@ nav input{
     background-color: #54026d;
     color: white;
   }
+ #logo{
+   width:90px
+ }
   #logo img{
-    width:90px;
+    object-fit:cover
   }
   .topnav .icon {
     display: none;
