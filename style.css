@@ -321,10 +321,9 @@ nav input{
 .slideshow-container {
   width:100%;
   position: relative;
-  margin: auto;
   z-index: -2;
   background-color: #54026d;
-  margin-bottom: -80px;
+  margin-bottom:0 0  -80px 0 ;
 }
 
 /* Caption text */
