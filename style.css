@@ -55,7 +55,7 @@ nav .wrapper{
 .nav-links .mobile-item{
   display: none;
 }
-.nav-links .drop-menu{
+.nav-links .drop-menu,.nav-links .drop-menu2{
   position: absolute;
   background: #1e0620;
   width: 300px;
@@ -65,14 +65,14 @@ nav .wrapper{
   visibility: hidden;
   box-shadow: 0 6px 10px rgba(0,0,0,0.15);
 }
-.nav-links li:hover .drop-menu,
+.nav-links li:hover .drop-menu,.nav-links .drop-menu2,
 .nav-links li:hover .mega-box{
   transition: all 0.3s ease;
   top: 70px;
   opacity: 1;
   visibility: visible;
 }
-.drop-menu li a{
+.drop-menu li a,.drop-menu2 li a{
   width: 100%;
   display: block;
   padding: 0 0 0 15px;
