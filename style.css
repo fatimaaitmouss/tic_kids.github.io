@@ -13,6 +13,7 @@ nav{
   background-color:#54026d;
   
 }
+#logo img{width:100px}
 nav .wrapper{
   position: relative;
   max-width: 100%;
@@ -145,6 +146,7 @@ nav .wrapper{
   .wrapper .btn{
     display: block;
   }
+  #logo img{width:80px}
   .wrapper .nav-links{
     position: fixed;
     height: 100vh;
@@ -152,7 +154,8 @@ nav .wrapper{
     max-width: 350px;
     top: 0;
     left: -100%;
-    background: #1e0620;;
+    z-index:999;
+    background: #1e0620;
     display: block;
     padding: 50px 10px;
     line-height: 50px;
@@ -351,6 +354,7 @@ nav input{
 .dots{
   text-align: center;
   padding: 20px;
+  margin-top:-100px;
 }
 .dot {
   height: 15px;
@@ -380,6 +384,11 @@ nav input{
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 880px) {
   .text {font-size: 11px}
+  .dots{
+  text-align: center;
+  padding: 20px;
+  margin-top:-50px;
+}
 }
   .container{
     padding: 20px 150px;
@@ -566,7 +575,7 @@ nav input{
     z-index: 2;
   }
   .waves{
-    margin-top: -5px;
+    margin-top: -7px;
 
   }
   .wave{
@@ -607,14 +616,7 @@ nav input{
     }
   }
   
-#logo h1 span{
-    color:rgb(0, 153, 255);
-    font-size: 5rem;
-}
-#logo h1{
-    color: blueviolet;
-    font-size: 4rem;
-}
+
 
 .color3{
     background-color: rgb(252, 164, 0);
