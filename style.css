@@ -433,7 +433,7 @@ nav input{
     text-align: left;
   }
   
-  /* Add a dark background on topnav links and the dropdown button on hover */
+  /* Add a color background on topnav links and the dropdown button on hover */
   .topnav a:hover, .dropdown:hover .dropbtn {
     background-color: #555;
     color: white;
@@ -575,7 +575,7 @@ nav input{
     z-index: 2;
   }
   .waves{
-    margin-top: -7px;
+    margin-top: -100px;
 
   }
   .wave{
