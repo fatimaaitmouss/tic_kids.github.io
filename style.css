@@ -365,6 +365,7 @@ nav input{
   display: inline-block;
   transition: background-color 0.6s ease;
 }
+#apropos{margin-top:-90px}
 
 .active {
   background-color: #520096;
@@ -575,7 +576,7 @@ nav input{
     z-index: 2;
   }
   .waves{
-    margin-top: -100px;
+    /*margin-top: -100px;*/
 
   }
   .wave{
