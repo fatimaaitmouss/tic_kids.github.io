@@ -12,7 +12,9 @@ nav{
   z-index: 99;
   background-color:#54026d;
 }
-
+#about p{
+  font-size:20px
+}
 #logo img{width:100px}
 nav .wrapper{
   position: relative;
