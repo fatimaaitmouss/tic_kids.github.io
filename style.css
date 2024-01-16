@@ -576,6 +576,12 @@ nav input{
     .flex3 div{
       width:100%
     }
+    footer h4{
+      display:flex;
+    }
+    foote h4::after{
+      content:'-';
+    }
   }
   .color2{
     background-color: #54026d;
