@@ -11,8 +11,8 @@
 nav{
   z-index: 99;
   background-color:#54026d;
-  
 }
+
 #logo img{width:100px}
 nav .wrapper{
   position: relative;
@@ -279,7 +279,10 @@ nav input{
   text-align: center;
   padding: 0 30px;
 }
-
+.violet3{
+  background-color:rgba(160, 40, 145, 0.08);
+  margin-top:-100px;
+}
 
 .margin{
   margin:70px 0;
