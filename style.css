@@ -3,7 +3,7 @@
   src: url("font/Fredoka-VariableFont_wdth\,wght.ttf");
 }
 *{
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Fredoka', sans-serif;
