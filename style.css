@@ -146,6 +146,7 @@ nav .wrapper{
   .wrapper .btn{
     display: block;
   }
+  body{height:100vh}
   #logo img{width:80px}
   .wrapper .nav-links{
     position: fixed;
