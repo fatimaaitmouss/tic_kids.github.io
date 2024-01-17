@@ -744,6 +744,10 @@ nav input{
   border-left: none;
   padding: 20px;
 }
+video::-webkit-media-controls-mute-button {
+  background-color:#eb7100 ;
+  border-radius: 50%;
+}
 
 .button {
   background-color:#eb7100; 
@@ -771,7 +775,8 @@ nav input{
 }
 .icons img{
   transition: transform .2s; /* Animation */
-  width:100px
+  width:100px; 
+  margin-top:30px
 }
 .icons img:hover{
   transform: scale(1.2);
