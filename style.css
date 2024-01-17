@@ -494,6 +494,9 @@ nav input{
     .tabcontent .flex,.tabcontent1 .flex{
       display: block;
     }
+    .tabcontent img, .tabcontent1 img{
+      width:200px
+    }
   }
   /* Style the links inside the navigation bar */
   .topnav a {
