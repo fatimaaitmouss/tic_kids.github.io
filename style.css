@@ -132,7 +132,7 @@ nav .wrapper{
 .row .mega-links li a:hover{
   color: #f2f2f2;
 }
-.wrapper .btn{
+.wrapper .button{
   color: #fff;
   font-size: 20px;
   cursor: pointer;
@@ -176,7 +176,7 @@ nav .wrapper{
     width: 10px;
   }
   ::-webkit-scrollbar-track {
-    background: rgb(120, 0, 156);;
+    background: orange;
   }
   ::-webkit-scrollbar-thumb {
     background: #3A3B3C;
