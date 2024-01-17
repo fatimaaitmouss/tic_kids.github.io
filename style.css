@@ -151,6 +151,8 @@ nav .wrapper{
   .mega-box img{
     width:40px
   }
+  nav .wrapper{
+  padding: 0px 5px;}
   footer{position:sticky;bottom:0}
   #logo img{width:80px}
   .wrapper .nav-links{
@@ -285,7 +287,7 @@ nav input{
 }
 .violet3{
   background-color:rgba(160, 40, 145, 0.08);
-  margin-top:-100px;
+  
 }
 
 .margin{
@@ -771,7 +773,8 @@ video::-webkit-media-controls-mute-button {
   padding: 20px;
 }
 .icons{
-  margin:80px 0px;
+  margin-top:80px;
+  padding:40px 0;
 }
 .icons img{
   transition: transform .2s; /* Animation */
