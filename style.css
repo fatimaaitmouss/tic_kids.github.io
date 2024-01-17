@@ -799,3 +799,8 @@ video::-webkit-media-controls-play-button {
   background-color:#eb7100
   border-radius: 50%;
 }
+video::-webkit-media-controls-fullscreen-button {
+  background-color: yellow;
+  border-radius: 50%;
+}
+
