@@ -798,8 +798,14 @@ video::-webkit-media-controls-mute-button {
 }
 
 video::-webkit-media-controls-play-button {
-  background-color:#eb7100
+  background-color:#eb7100;
   border-radius: 50%;
+}
+video::-webkit-media-controls-timeline {
+  background-color: #f00;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  margin-top:20px
 }
 video::-webkit-media-controls-fullscreen-button {
   background-color: yellow;
